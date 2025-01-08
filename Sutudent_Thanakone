@@ -1,0 +1,9 @@
+from Student import Student
+
+class Thanakone(Student):
+    def name(self):
+        return "Thanakone"
+    def speak(self):
+        return "Toi ten la Thanakone \nEmail: thanakone7536@gmail.com"
+    def address(self):
+        return "Savanakhet"
